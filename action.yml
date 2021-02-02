@@ -1,0 +1,18 @@
+name: 'my first container action'
+description: 'A demo'
+author: 'Beanxyz'
+inputs:
+  myInput:
+    description: 'greeting to use'
+    required: true
+    default: 'Awesome Guru'
+outputs:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+
+
+
